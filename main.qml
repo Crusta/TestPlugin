@@ -1,7 +1,7 @@
 import Crusta 1.0
+import "lib.js" as L
 
 Plugin {
-    init: function() {
-        console.log("Hello World");
-    }
+    create: L.create;
+    destroy: L.destroy;
 }
